@@ -1,18 +1,28 @@
 body {
-    background-color: rgb(11, 94, 94);
+    background-image: linear-gradient(to right,rgba(212, 162, 0, 0.727), rgba(1, 87, 94, 0.847));
 }
 
 .header {
-    color: rgb(255, 0, 0);
+    background-color: rgba(219, 171, 1, 0.678);
     display: flex;
     justify-content: center;
-    border: 15px outset rgb(0, 170, 255);
+    border: 10px groove rgb(255, 187, 0);
+    border-inline-start: 10px dashed rgba(225, 196, 2, 0.945);
+    border-inline-end: 10px dashed rgba(0, 126, 137, 0.77);
     padding: 2.5px;
-    border-radius: 25px;
+    border-radius: 700px;
+    margin: -8px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header h2 {
-    color: red;
-    font-size: 50px;
+    color: rgb(255, 191, 0);
+    font-size: 55px;
     font-family: fantasy;
+}
+
+.nav a {
+    background-color: white;
 }
