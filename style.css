@@ -13,7 +13,7 @@ body {
     border-inline-end: 10px dashed rgba(0, 126, 137, 0.77);
     padding: 2.5px;
     border-radius: 700px;
-    margin: -8px;
+    margin: 13px;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -25,8 +25,21 @@ body {
     font-size: 68px;
 }
 
-.nav a {
-    position: absolute;
-    top:450px;
-    bottom: 450px;
+a {
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    
 }
+
+div.footer {
+    border: 10px groove rgba(224, 175, 0, 0.818);
+    border-inline-start: 10px dashed rgba(225, 196, 2, 0.945);
+    border-inline-end: 10px dashed rgba(0, 126, 137, 0.77);
+    padding: 2.5px;
+    padding: 190px;
+    border-radius: 80px;
+    margin: 60px;
+    width: 55px;
+    background-color: white;
+}
+
