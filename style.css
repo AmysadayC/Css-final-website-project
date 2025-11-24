@@ -13,7 +13,7 @@ body {
     border-inline-end: 10px dashed rgba(0, 126, 137, 0.77);
     padding: 2.5px;
     border-radius: 700px;
-    margin: 13px;
+    margin: 10px;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -22,16 +22,19 @@ body {
 .header h2 {
     color: rgb(255, 191, 0);
     font-family: "Shizuru";
-    font-size: 68px;
+    font-size: 69px;
 }
 
 a {
     text-decoration: none;
     letter-spacing: 1.5px;
-    
+    background-color: rgba(255, 204, 0, 0.804);
+    padding: 10px;
+    border-radius: 60px;
+    color: rgb(255, 255, 255);
 }
 
-div.footer {
+.footer {
     border: 10px groove rgba(224, 175, 0, 0.818);
     border-inline-start: 10px dashed rgba(225, 196, 2, 0.945);
     border-inline-end: 10px dashed rgba(0, 126, 137, 0.77);
@@ -40,6 +43,33 @@ div.footer {
     border-radius: 80px;
     margin: 60px;
     width: 55px;
-    background-color: white;
+    background-color: rgba(255, 183, 0, 0.699);
 }
+
+.links {
+    padding: 6px;
+    margin: 10px;
+    border-radius: 25px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.nav-link {
+    background-color: rgba(255, 200, 0, 0.27);
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.nav-link a {
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.nav-link a:hover {
+    background-color: rgba(0, 140, 255, 0.702);
+    
+}
+
+
+
 
