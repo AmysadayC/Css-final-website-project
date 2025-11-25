@@ -34,16 +34,15 @@ a {
     color: rgb(255, 255, 255);
 }
 
-.footer {
+.aside {
     border: 10px groove rgba(224, 175, 0, 0.818);
     border-inline-start: 10px dashed rgba(225, 196, 2, 0.945);
     border-inline-end: 10px dashed rgba(0, 126, 137, 0.77);
-    padding: 2.5px;
-    padding: 190px;
     border-radius: 80px;
     margin: 60px;
-    width: 55px;
+    width:35%;
     background-color: rgba(255, 183, 0, 0.699);
+    padding: 20px;
 }
 
 .links {
@@ -70,6 +69,8 @@ a {
     
 }
 
-
-
-
+.aside img {
+    width: 96%;
+    height: auto;
+    border-radius: 60px;
+}
