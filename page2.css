@@ -1,3 +1,29 @@
 body {
-    background-color: rgba(148, 138, 1, 0.778);
+    background-color: rgb(45, 51, 52);
+}
+
+.slide {
+    width: 500px;
+    animation: slide 2.5s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(-100%);
+    }
+    15% {
+        transform: translateX(-50%);
+    }
+    25% {
+        transform: translateX(50%);
+    }
+    50% {
+        transform: translateX(100%);
+    }
+    75% {
+        transform: translateX(150%);
+    }
+    100% {
+        transform: translateX(200%)
+    }
 }
