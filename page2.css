@@ -1,29 +1,46 @@
 body {
-    background-color: rgb(45, 51, 52);
+   background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(48, 128, 81, 1) 28%, rgba(237, 221, 83, 1) 100%);
 }
 
 .slide {
     width: 500px;
-    animation: slide 2.5s linear infinite;
+    animation: slide 2.5s ease infinite;
 }
 
 @keyframes slide {
     0% {
-        transform: translateX(-100%);
+        transform: translateX(-30vw);
     }
     15% {
-        transform: translateX(-50%);
+        transform: translateX(-5vw);
     }
     25% {
-        transform: translateX(50%);
+        transform: translateX(10vw);
     }
     50% {
-        transform: translateX(100%);
+        transform: translateX(60vw);
     }
     75% {
-        transform: translateX(150%);
+        transform: translateX(73vw);
     }
     100% {
-        transform: translateX(200%)
+        transform: translateX(70vw)
     }
+}
+
+.slide {
+    border-radius: 60px;
+    width: 485px;
+    height: 470px;
+    
+}
+
+.page2pics {
+    display: flex;
+    gap: 55px;
+    border: 15px;
+    background: linear-gradient(90deg,rgb(23, 95, 124) 0%, rgba(48, 128, 81, 0.721) 28%, rgba(199, 184, 44, 0.395) 100%);
+    border-radius: 60px 60px 9px 9px;
+    margin: 150x;
+    justify-content: space-around;
 }
