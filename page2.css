@@ -1,46 +1,60 @@
 body {
-   background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(48, 128, 81, 1) 28%, rgba(237, 221, 83, 1) 100%);
-}
-
-.slide {
-    width: 500px;
-    animation: slide 2.5s ease infinite;
+   background: linear-gradient(90deg,rgb(71, 71, 71) 0%, rgba(48, 128, 81, 1) 28%, rgba(237, 221, 83, 1) 100%);
 }
 
 @keyframes slide {
     0% {
-        transform: translateX(-30vw);
+        transform: translateX(-55vw);
+    }
+    5% {
+        transform: translateX(-45vw);
+    }
+    10% {
+        transform: translateX(-32vw)
     }
     15% {
-        transform: translateX(-5vw);
+        transform: translateX(-26vw);
     }
     25% {
-        transform: translateX(10vw);
+        transform: translateX(-20vw);
+    }
+    35% {
+        transform: translateX(20vw);
+    }
+    40% {
+        transform: translateX(20vw);
     }
     50% {
-        transform: translateX(60vw);
+        transform: translateX(-7vw);
     }
     75% {
-        transform: translateX(73vw);
+        transform: translateX(2vw);
     }
     100% {
-        transform: translateX(70vw)
+        transform: translateX(0vw)
     }
 }
 
 .slide {
     border-radius: 60px;
-    width: 485px;
-    height: 470px;
-    
+    width: 10px;
+    height: 300px;
+    width: 500px;
+    animation: slide 5s ease 1;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+}
+
+.slide:hover {
+    filter: drop-shadow(20px 20px 10px white);
 }
 
 .page2pics {
     display: flex;
-    gap: 55px;
-    border: 15px;
-    background: linear-gradient(90deg,rgb(23, 95, 124) 0%, rgba(48, 128, 81, 0.721) 28%, rgba(199, 184, 44, 0.395) 100%);
+    border: 0px;
+    background: linear-gradient(90deg,rgb(52, 52, 52) 0%, rgb(160, 160, 160) 28%, rgb(53, 53, 53) 100%);
     border-radius: 60px 60px 9px 9px;
-    margin: 150x;
+    margin: 60px;
     justify-content: space-around;
 }
+
