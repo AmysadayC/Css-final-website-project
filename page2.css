@@ -1,5 +1,5 @@
 body {
-   background: linear-gradient(90deg,rgb(71, 71, 71) 0%, rgba(48, 128, 81, 1) 28%, rgba(237, 221, 83, 1) 100%);
+   background: linear-gradient(90deg,rgb(71, 71, 71) 0%, rgb(150, 150, 150) 28%, rgb(81, 81, 81) 100%);
 }
 
 @keyframes slide {
@@ -10,22 +10,25 @@ body {
         transform: translateX(-45vw);
     }
     10% {
-        transform: translateX(-32vw)
+        transform: translateX(-35vw)
     }
     15% {
-        transform: translateX(-26vw);
+        transform: translateX(-25vw);
     }
     25% {
-        transform: translateX(-20vw);
+        transform: translateX(-15vw);
     }
     35% {
-        transform: translateX(20vw);
+        transform: translateX(8vw);
     }
     40% {
-        transform: translateX(20vw);
+        transform: translateX(2vw);
+    }
+    45% {
+        transform: translateX(4vw);
     }
     50% {
-        transform: translateX(-7vw);
+        transform: translateX(6vw);
     }
     75% {
         transform: translateX(2vw);
