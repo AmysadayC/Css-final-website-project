@@ -22,16 +22,16 @@ body {
         transform: translateX(8vw);
     }
     40% {
-        transform: translateX(2vw);
-    }
-    45% {
         transform: translateX(4vw);
     }
+    45% {
+        transform: translateX(2vw);
+    }
     50% {
-        transform: translateX(6vw);
+        transform: translateX(1vw);
     }
     75% {
-        transform: translateX(2vw);
+        transform: translateX(1.5vw);
     }
     100% {
         transform: translateX(0vw)
@@ -50,14 +50,23 @@ body {
 
 .slide:hover {
     filter: drop-shadow(20px 20px 10px white);
+    transition: 0.5s ease-out;
 }
 
 .page2pics {
     display: flex;
-    border: 0px;
+    border: double 2px rgb(107, 107, 108);
     background: linear-gradient(90deg,rgb(52, 52, 52) 0%, rgb(160, 160, 160) 28%, rgb(53, 53, 53) 100%);
     border-radius: 60px 60px 9px 9px;
     margin: 60px;
     justify-content: space-around;
 }
 
+p {
+    color: white;
+    border: 4px double rgb(54, 128, 152);
+    padding: 34px;
+    position: absolute;
+    top: -40px;
+    left: 125px;
+}
