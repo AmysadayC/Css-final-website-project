@@ -18,5 +18,17 @@ body {
 p {
     color: white;
     position: absolute;
-    top: 400px;
+    top: 200px;
+    border: double 2px rgb(105, 105, 105);
+    left: 700px;
+    width: 600px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 25px 25px 20px rgb(174, 174, 174);
+    border-radius: 10px;
+}
+
+p:hover {
+    color: rgba(56, 100, 109, 0.732);
+    transition: ease-in-out white 7s;
 }

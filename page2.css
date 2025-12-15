@@ -67,6 +67,8 @@ p {
     border: 4px double rgb(54, 128, 152);
     padding: 34px;
     position: absolute;
-    top: -40px;
-    left: 125px;
+    top: 100px;
+    left: 25px;
+    width: 200px;
+    font-size: 34px;
 }
